@@ -24,7 +24,7 @@
    - [ ] Indicated to the TAs which PRs you would like to be graded by adding “(GRADED)” to the PR name
     
 **Exercise 4: GitHub Issues - complete individually**
-   - [ ] Each team member should write a new Issue introducing themselves briefly. Tag each of your teammates in the body of your Issue. _pending @andrasszeitz, @whh1123_
+   - [ ] Each team member should write a new Issue introducing themselves briefly. Tag each of your teammates in the body of your Issue. _pending @whh1123_
  - [ ] Each team member should respond to everyone’s introduction Issue
    
 
@@ -47,7 +47,8 @@
 
 _When will you each aim to submit your pull requests, keeping in mind that another teammate will need to review your work? Warning: Do not submit your part of the project last-minute. Your teammate’s review of your work may not be trivial: if there are errors, your team will need time to debug them._
 
-  * September 15
+  * September 15: Exercise 5 and Exercise 6 (finished) pull and merge.
+  * September 18: Updating the Teamwork Contract.
   * _Add more dates as pull requests come in_
     
 
