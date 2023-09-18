@@ -1,6 +1,6 @@
 # Team20 Collaborative Project Milestone 1
 ## What is the *_project_*?
-The *_Project_* is to create Repositories, branches, commits, pull and push requests, etc., in GitHib in combination with R Studio.
+The *_Project_* is to create Repositories, branches, commits, pull and push requests, etc., in GitHub in combination with R Studio.
 
 ## What *_files_* are in the project folder/GitHub repository, at a high level?
 * readme
@@ -19,3 +19,4 @@ The *_Project_* is to create Repositories, branches, commits, pull and push requ
 ![UBC logo](/assets/UBC-logo.jpg)
 - [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/1
 - [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/2
+- [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/8
