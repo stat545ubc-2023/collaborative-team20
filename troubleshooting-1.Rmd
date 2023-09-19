@@ -15,7 +15,8 @@ First, let's store the current date as a variable. We can use the function `Sys.
 
 ```{r, error = TRUE}
 ## ERROR 1 ##
-_today_ <- Sys.Date()
+today_ <- Sys.Date() #the underscore before "today" are removed because the syntax of R prohibits the variable name starts with _
+today_ #print the date
 ```
 
 You may notice that, although an error might appear in these cells, this Rmd file knits just fine. That's because the `error = TRUE` *chunk option* is included in each chunk, allowing the Rmd file to knit, even when an error is encountered.
@@ -24,14 +25,23 @@ Now, let's load the `tidyverse` (meta-) package:
 
 ```{r, error = TRUE}
 ## ERROR 2 ##
-libraries(tidyverse)
+#install.packages("tidyverse") #I used this command once to install tidyverse package first.
+## The followings involve solving the warning of conflicts only to make the output tidy. Not solving the conflicts gives the correct function as well. 
+library(conflicted) # add conflicted packages to solve the conflicts in tidyverse_conflicts
+
+## Main change to correctly import tidyverse library
+library(tidyverse) # Changed libraries to library because the loading package function is library.
+#conflict_prefer("filter", "dplyr") # set preferred function of filter
+#conflict_prefer("lag", "dplyr") # set preferred function of lag
+
+
 ```
 
 By loading the tidyverse, a function called `glimpse` has been made available. This function is useful for viewing a data set. Let's take a look at the `mtcars` dataset by applying the `glimpse` function to `mtcars`!
 
 ```{r, error = TRUE}
 ## ERROR 3 ##
-glimpse mtcars
+glimpse(mtcars) #add brackets around mtcars to call the function with correct syntax.
 ```
 
 ## Attribution
