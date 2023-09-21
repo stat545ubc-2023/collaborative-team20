@@ -24,8 +24,8 @@
    - [x] Indicated to the TAs which PRs you would like to be graded by adding “(GRADED)” to the PR name
     
 **Exercise 4: GitHub Issues - complete individually**
-   - [ ] Each team member should write a new Issue introducing themselves briefly. Tag each of your teammates in the body of your Issue. _pending @whh1123_
- - [ ] Each team member should respond to everyone’s introduction Issue
+   - [x] Each team member should write a new Issue introducing themselves briefly. Tag each of your teammates in the body of your Issue. _pending @whh1123_
+ - [x] Each team member should respond to everyone’s introduction Issue
    
 
 **Exercise 5: Teamwork Contract - @April-UBC** ✅
@@ -60,4 +60,3 @@ _How will you communicate with each other? For example, will you be using both S
   * We will aim to communicate with each other via Slack. We have created a group chat and have been relying on asynchronous communication but we will discuss organizing a synchronous meeting.
 
  
-
