@@ -40,8 +40,8 @@
 **Exercise 7: README file - @BearAlenko, @andrasszeitz** ✅
 - [x] Your repository should already be seeded with a blank README.md file. In this file, include a brief description of the repository + project by including at least the three required elements. Your README file might be about the length of a paragraph in total.
 
-**Exercise 8: Submitting this Milestone - @???**
-- [ ] Tag a release on your GitHub repository, and adding a link to the release on canvas
+**Exercise 8: Submitting this Milestone** ✅
+- [x] Tag a release on your GitHub repository, and adding a link to the release on canvas
 
 ## Timing
 
