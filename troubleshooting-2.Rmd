@@ -1,0 +1,6 @@
+---
+title: "STAT 545A Troubleshooting Exercise for Milestone 2"
+output: github_document
+---
+
+This is an empty file to record the troubleshooting activity for Milestone 2 for Team 20

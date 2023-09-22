@@ -1,4 +1,7 @@
 # Team20 Collaborative Project Milestone 2
+
+<a><img src="stat545-240x278.png" alt="STAT 545 @ UBC"></a>
+
 ## What is the *_Project_*?
 The *_Project_* will include each team member to
 
@@ -19,15 +22,6 @@ The *_Project_* will include each team member to
 * make sure you have the latest version of RStudio installed on the computer
 * using RStudio, pull the file, make changes, commit, push/merge the file
 * alternatively, you can work on the code using GitHub or jupyter 
-   
-<a><img src="stat545-240x278.png" alt="STAT 545 @ UBC"></a>
-
-![UBC logo](/assets/UBC-logo.jpg)
-
-- [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/1
-- [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/2
-- [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/8
-
 
 ## **File list for this Project**
 
