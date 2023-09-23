@@ -1,6 +1,6 @@
 # Team20 Collaborative Project Milestone 2
 
-<a><img src="/assets/UBC-logo.jpg"></a>
+<a><img src="/assets/stat545-240x278.png"></a>
 
 ## The *_Project_*
 
