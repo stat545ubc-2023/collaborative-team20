@@ -17,7 +17,7 @@ In the exercise, each team member has
    - [ ] reviewed a pull request made by others and merged it @April-UBC @BearAlenko
    - [ ] ensured that pull requests previously graded are marked "(GRADED)" in the file name
 
-**Exercise 1: Troubleshooting document** ? @BearAlenko
+**Exercise 1: Troubleshooting document** ? ✅ @BearAlenko
 
 The Repository
 
@@ -25,7 +25,7 @@ The Repository
    - [x] all 11 errors fixed are fixed the troubleshooting-2.Rmd file
    - [x] contains troubleshooting-2.md that is up-to-date with its Rmd source
 
-**Exercise 2: README file and tidy repo** ? @andrasszeitz
+**Exercise 2: README file and tidy repo** ? ✅ @andrasszeitz
 
    - [x] README.md reflects all changes made to the repository
    - [x] Repository is clean and organized; no old files kept, with all output files being up to date.
@@ -34,7 +34,7 @@ The Repository
 
    - [ ] Collaborative Project: Milestone 2 was tagged a release to Canvas
 
-**Additional: TEAMWORK file and updating** @April-UBC
+**Additional: TEAMWORK file and updating** ✅ @April-UBC
 
    - [x] Update the progress and division of work in TEAMWORK file  @April-UBC
    
