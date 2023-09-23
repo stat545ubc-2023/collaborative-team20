@@ -28,7 +28,7 @@ The *_Project_* will include
 
 ## **File list for this Project**
 
-1. **[README-2.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/README-2.md):** The README-2 file shows the outline of this project.
+1. **[README.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/README.md):** The README-2 file shows the outline of this project.
 2. **[TEAMWORK-2.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/TEAMWORK-2.md):** This TEAMWORK-2 file provides a guideline on how we collaborate and communicate among each other.
 3. **[troubleshooting-2.Rmd](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/troubleshooting-2.Rmd):** This is the STAT 545A Troubleshooting Exercise for Milestone 2.
 4.  **[troubleshooting-2.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/troubleshooting-2.md):** This is the markdown version of STAT 545A Troubleshooting Exercise for Milestone 2.
