@@ -17,12 +17,12 @@ Note that errors are not all syntactic (i.e., broken code)! Some are logical err
 
 ```{r}
 ### ERROR HERE ###
-load.packages(dslabs)
-load.packages(tidyverse)
-load.packages(stringr)
-install.packages("devtools") # Do not run this if you already have this package installed! 
-devtools::install_github("JoeyBernhardt/singer")
-load.packages(gapminder)
+library(dslabs) ##change to library function for syntax error
+library(tidyverse)
+library(stringr)
+#install.packages("devtools") # Do not run this if you already have this package installed! 
+#devtools::install_github("JoeyBernhardt/singer")
+library(gapminder)
 ```
 
 Let's have a look at the dataset! My goal is to:
@@ -36,6 +36,7 @@ Let's have a look at the dataset! My goal is to:
 class(dslabs::movielens)
 movieLens <- as_tibble(dslabs::movielens)
 dim(movieLens)
+head(movieLens) ## add head to show some rows of dataset
 ```
 
 Now that we've had a quick look at the dataset, it would be interesting to explore the rows (observations) in some more detail. I'd like to consider the movie entries that...
@@ -50,8 +51,8 @@ Now that we've had a quick look at the dataset, it would be interesting to explo
 ### ERROR HERE ###
 filter(movieLens, genres == "Drama")
 filter(movieLens, !genres == "Drama")
-filter(movieLens, year >= 2000)
-filter(movieLens, year == 1999 | month == 2000)
+filter(movieLens, year > 2000) ## change to > 2000 as we need "after" year 2000
+filter(movieLens, year == 1999 | year == 2000) ## change to year == 2000
 filter(movieLens, rating > 4.5, year < 1995)
 ```
 
@@ -61,7 +62,7 @@ While filtering for *all movies that do not belong to the genre drama* above, I 
 ### ERROR HERE ###
 movieLens %>%
   filter(!genres == "Drama") %>%
-  select(title, genres, year, rating, timestamp)
+  select(title, genres, everything()) ##use everything to represent the rest
 ```
 
 ## Exercise 2: Calculating with `mutate()`-like functions
@@ -71,16 +72,16 @@ Some of the variables in the `movieLens` dataset are in *camelCase* (in fact, *m
 ```{r}
 ### ERROR HERE ###
 movieLens <- movieLens %>%
-  rename(user_id == userId,
-         movie_id == movieId)
+  rename(user_id = userId,
+         movie_id = movieId) ## == to = for syntax error
 ```
 
 As you already know, `mutate()` defines and inserts new variables into a tibble. There is *another mystery function similar to `mutate()`* that adds the new variable, but also drops existing ones. I wanted to create an `average_rating` column that takes the `mean(rating)` across all entries, and I only want to see that variable (i.e drop all others!) but I forgot what that mystery function is. Can you remember?
 
 ```{r}
 ### ERROR HERE ### 
-mutate(movieLens,
-       average_rating = mean(rating))
+transmute(movieLens,
+       average_rating = mean(rating)) ## use transmute to show only new column.
 ```
 
 ## Exercise 3: Calculating with `summarise()`-like functions
@@ -100,7 +101,7 @@ Without using `group_by()`, I want to find out how many movie reviews there have
 ```{r}
 ### ERROR HERE ###
 movieLens %>%
-  tally(year)
+  count(year) ##change from tally to count
 ```
 
 Both `count()` and `tally()` can be grouped by multiple columns. Below, I want to count the number of movie reviews by title and rating, and sort the results.
@@ -108,7 +109,7 @@ Both `count()` and `tally()` can be grouped by multiple columns. Below, I want t
 ```{r}
 ### ERROR HERE ###
 movieLens %>%
-  count(c(title, rating), sort = TRUE)
+  count(title, rating, sort = TRUE) ## don't have to make vector as input to count
 ```
 
 Not only do `count()` and `tally()` quickly allow you to count items within your dataset, `add_tally()` and `add_count()` are handy shortcuts that add an additional columns to your tibble, rather than collapsing each group.
@@ -128,7 +129,8 @@ Using `summarize()`, we can find the minimum and the maximum rating by title, st
 ```{r}
 ### ERROR HERE ###
 movieLens %>%
-  mutate(min_rating = min(rating), 
+  group_by(title) %>% ## group by the title
+  summarise(min_rating = min(rating),  ## summarise the min and max of rating
          max_rating = max(rating))
 ```
 
@@ -153,7 +155,7 @@ We can find the minimum height and mass within each species, ignoring the missin
 ### ERROR HERE ###
 starWars %>%
   group_by(species) %>%
-  summarise(across("height", "mass", function(x) min(x, na.rm=TRUE)))
+  summarise(across(c(height, mass), function(x) min(x, na.rm=TRUE))) ## create vector of columns "height" and "mass" in across to fix syntax error
 ```
 
 Note that here R has taken the convention that the minimum value of a set of `NA`s is `Inf`.
@@ -169,16 +171,18 @@ Manually create a tibble with 4 columns:
 ```{r}
 ### ERROR HERE ###
 fakeStarWars <- tribble(
-  ~name,            ~birth_weight,  ~birth_year, ~birth_location
-  "Luke Skywalker",  1.35      ,   1998        ,  Liverpool, England,
-  "C-3PO"         ,  1.80      ,   1999        ,  Liverpool, England,
-  "R2-D2"         ,  2.25      ,   2000        ,  Seattle, WA,
-  "Darth Vader"   ,  2.70      ,   2001        ,  Liverpool, England,
-  "Leia Organa"   ,  3.15      ,   2002        ,  New York, NY,
-  "Owen Lars"     ,  3.60      ,   2003        ,  Seattle, WA,
-  "Beru Whitesun Iars", 4.05   ,   2004        ,  Liverpool, England,
-  "R5-D4"         ,  4.50      ,   2005        ,  New York, NY,
-)
+  ~name,            ~birth_weight,  ~birth_year, ~birth_location,
+  "Luke Skywalker",  1.35      ,   1998        ,  "Liverpool, England",
+  "C-3PO"         ,  1.80      ,   1999        ,  "Liverpool, England",
+  "R2-D2"         ,  2.25      ,   2000        ,  "Seattle, WA",
+  "Darth Vader"   ,  2.70      ,   2001        ,  "Liverpool, England",
+  "Leia Organa"   ,  3.15      ,   2002        ,  "New York, NY",
+  "Owen Lars"     ,  3.60      ,   2003        ,  "Seattle, WA",
+  "Beru Whitesun Iars", 4.05   ,   2004        ,  "Liverpool, England",
+  "R5-D4"         ,  4.50      ,   2005        ,  "New York, NY"
+) ## add , after birth_location to solve syntax error, and "" the birth locations
+#fakeStarWars %>% mutate(birth_weight_check = (birth_year-1995)*0.45)
+fakeStarWars
 ```
 
 ## Attributions
