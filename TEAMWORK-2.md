@@ -22,7 +22,7 @@ In the exercise, each team member has
 The Repository
 
    - [x] contains troubleshooting-2.Rmd file
-   - [x] all 11 errors fixed are fixed the troubleshooting-2.Rmd file
+   - [x] eleven errors that have been fixed and documented in the troubleshooting-2.Rmd file
    - [x] contains troubleshooting-2.md that is up-to-date with its Rmd source
 
 **Exercise 2: README file and tidy repo** ? ✅ @andrasszeitz
