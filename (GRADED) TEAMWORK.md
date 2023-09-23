@@ -24,8 +24,8 @@
    - [x] Indicated to the TAs which PRs you would like to be graded by adding “(GRADED)” to the PR name
     
 **Exercise 4: GitHub Issues - complete individually**
-   - [ ] Each team member should write a new Issue introducing themselves briefly. Tag each of your teammates in the body of your Issue. _pending @whh1123_
- - [ ] Each team member should respond to everyone’s introduction Issue
+   - [x] Each team member should write a new Issue introducing themselves briefly. Tag each of your teammates in the body of your Issue. _pending @whh1123_
+ - [x] Each team member should respond to everyone’s introduction Issue
    
 
 **Exercise 5: Teamwork Contract - @April-UBC** ✅
@@ -40,8 +40,8 @@
 **Exercise 7: README file - @BearAlenko, @andrasszeitz** ✅
 - [x] Your repository should already be seeded with a blank README.md file. In this file, include a brief description of the repository + project by including at least the three required elements. Your README file might be about the length of a paragraph in total.
 
-**Exercise 8: Submitting this Milestone - @???**
-- [ ] Tag a release on your GitHub repository, and adding a link to the release on canvas
+**Exercise 8: Submitting this Milestone** ✅
+- [x] Tag a release on your GitHub repository, and adding a link to the release on canvas
 
 ## Timing
 
@@ -60,4 +60,3 @@ _How will you communicate with each other? For example, will you be using both S
   * We will aim to communicate with each other via Slack. We have created a group chat and have been relying on asynchronous communication but we will discuss organizing a synchronous meeting.
 
  
-
