@@ -1,30 +1,34 @@
-# Team20 Collaborative Project Milestone 1
-## What is the *_project_*?
-The *_Project_* is to create Repositories, branches, commits, pull and push requests, etc., in GitHub in combination with R Studio.
+# Team20 Collaborative Project Milestone 2
 
-## What *_files_* are in the project folder/GitHub repository, at a high level?
-* readme
-* troubleshoot
-* teamwork progress tracking
-* Help requests from other team members
+<a><img src="/assets/stat545-240x278.png"></a>
 
-## How can they run code that appears in your folder/Github repository at a high level?
-1. clone the code
-2. install the RStudio
-3. Pull, make changes, commit, push/merge
-   
+## The *_Project_*
 
-:+1: :+1: :+1: :+1: :+1:
-![Statistics Logo](https://www.stat.ubc.ca/sites/default/files/styles/front_page_slider_large_c/public/front_page_slide/statspageimage13.png)
-![UBC logo](/assets/UBC-logo.jpg)
-- [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/1
-- [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/2
-- [x] https://github.com/stat545ubc-2023/collaborative-team20/issues/8
+The *_Project_* will include
 
+* pull/push requests, reviews, and merges that are marked "(GRADED)" if required
+* correcting and documenting errors in the repository
+* updates of corrections in the README.md file
+* a clean file structure without obsolete files
+* _The files of Milestone 1 are stored in the folder "Milestone 1"_
+
+## What *_files_* are in the 'collaborative-team20' GitHub repository?
+* README.md
+* troubleshooting-2.md
+* troubleshooting-2.Rmd
+* TEAMWORK-2.md file
+* Milestone 1 files are in the folder "Milestone 1"
+* help requests from fellow team members, etc.
+
+## How can you run *_codes_* that are in 'collaborative-team20' GitHub repository?
+* make a backup copy of the code
+* make sure you have the latest version of RStudio installed on the computer
+* using RStudio, pull the file, make changes, commit, push/merge the file
+* alternatively, you can work on the code using GitHub or jupyter 
 
 ## **File list for this Project**
 
-1. **[README.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/README.md):** The README file shows the outline of this project.
-2. **[TEAMWORK.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/(GRADED)%20TEAMWORK.md):** This TEAMWORK file provides a guideline on how we collaborate and communicate among each other.
-3. **[troubleshooting-1.Rmd](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/troubleshooting-1.Rmd):** This is the STAT 545A Troubleshooting Exercise for Milestone 1.
-4.  **[troubleshooting-1.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/troubleshooting-1.md):** This is the markdown version of STAT 545A Troubleshooting Exercise for Milestone 1.
+1. **[README-2.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/README-2.md):** The README-2 file shows the outline of this project.
+2. **[TEAMWORK-2.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/TEAMWORK-2.md):** This TEAMWORK-2 file provides a guideline on how we collaborate and communicate among each other.
+3. **[troubleshooting-2.Rmd](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/troubleshooting-2.Rmd):** This is the STAT 545A Troubleshooting Exercise for Milestone 2.
+4.  **[troubleshooting-2.md](https://github.com/stat545ubc-2023/collaborative-team20/blob/main/troubleshooting-2.md):** This is the markdown version of STAT 545A Troubleshooting Exercise for Milestone 2.
