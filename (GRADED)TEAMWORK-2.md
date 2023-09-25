@@ -48,6 +48,14 @@ _When you will submit your pull requests, keep in mind that another teammate wil
   * September 23: Exercise 1 and 2 completed.
   * September 27: Exercise 0-3 completed, tentatively
   * September 28-29: Last-minute unexpected errors, problems fixed, Exercise 3 completed.
+#### Detailed Planning for Exercises
+| **Date**  |               **Exercises Planning**            |
+|:--------- |:--------------------                            |
+| Sept 20   |  Exercises 1 completed                          |
+| Sept 23   |  Exercises 2 completed                          |
+| Sept 27   |  Exercises 0-3 completed, tentatively           |
+| Sept 28   |  Last-minute unexpected errors, problems fixed  |
+| Sept 29   |  Exercise 3 completed                           |
     
 ## Communication
 
