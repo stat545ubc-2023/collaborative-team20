@@ -1,4 +1,4 @@
-# Guidelines on how we will work together  🤓
+# Guidelines on how we will work together :bowtie:  
 
 @andrasszeitz
 @April-UBC
@@ -8,16 +8,18 @@
  ## Division of Work
  _Be sure to include what work will be done individually, so that the work in each teammate’s pull request has been identified._
  
-**Exercise 0: Merge one Pull Request per teammate** ? @andrasszeitz @April-UBC @BearAlenko @whh1123
+**Exercise 0: Merge one Pull Request per teammate**  @andrasszeitz @April-UBC @BearAlenko @whh1123
 
 In the exercise, each team member has
 
-   - [ ] created a pull request that includes a start-up statement @andrasszeitz @BearAlenko
-   - [ ] made a pull request
-   - [ ] reviewed a pull request made by others and merged it @April-UBC @BearAlenko
+   - [ ] creation of a complete set of pull requests (i.e., one pull request per teammate) @andrasszeitz @BearAlenko, @April-UBC
+   - [ ] reviewed a pull request made by others and merged it @April-UBC @BearAlenko @andrasszeitz
+   - [ ] comment(s) kicking off the pull request @April-UBC @BearAlenko @andrasszeitz
+   - [ ] follow-up comment(s) from a reviewer @April-UBC @BearAlenko @andrasszeitz
+   - [ ] each teammate gets the chance to act as a reviewer/merger of someone else’s pull request
    - [ ] ensured that pull requests previously graded are marked "(GRADED)" in the file name
 
-**Exercise 1: Troubleshooting document** ? ✅ @BearAlenko
+**Exercise 1: Troubleshooting document**  ✅ @BearAlenko
 
 The Repository
 
@@ -25,7 +27,7 @@ The Repository
    - [x] eleven errors that have been fixed and documented in the troubleshooting-2.Rmd file
    - [x] contains troubleshooting-2.md that is up-to-date with its Rmd source
 
-**Exercise 2: README file and tidy repo** ? ✅ @andrasszeitz
+**Exercise 2: README file and tidy repo**  ✅ @andrasszeitz
 
    - [x] README.md reflects all changes made to the repository
    - [x] Repository is clean and organized; no old files kept, with all output files being up to date.
@@ -45,7 +47,7 @@ _When you will submit your pull requests, keep in mind that another teammate wil
 
   * September 23: Exercise 1 and 2 completed.
   * September 27: Exercise 0-3 completed, tentatively
-  * September 28-29: Last-minute unexpected errors, problems fixed, Exectise 3 completed.
+  * September 28-29: Last-minute unexpected errors, problems fixed, Exercise 3 completed.
     
 ## Communication
 
