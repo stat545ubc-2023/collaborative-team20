@@ -13,9 +13,9 @@
 In the exercise, each team member has
 
    - [ ] creation of a complete set of pull requests (i.e., one pull request per teammate) @andrasszeitz @BearAlenko, @April-UBC
-   - [ ] reviewed a pull request made by others and merged it @April-UBC @BearAlenko
-   - [ ] comment(s) kicking off the pull request @BearAlenko
-   - [ ] follow-up comment(s) from a reviewer @April-UBC
+   - [ ] reviewed a pull request made by others and merged it @April-UBC @BearAlenko @andrasszeitz
+   - [ ] comment(s) kicking off the pull request @April-UBC @BearAlenko @andrasszeitz
+   - [ ] follow-up comment(s) from a reviewer @April-UBC @BearAlenko @andrasszeitz
    - [ ] each teammate gets the chance to act as a reviewer/merger of someone else’s pull request
    - [ ] ensured that pull requests previously graded are marked "(GRADED)" in the file name
 
