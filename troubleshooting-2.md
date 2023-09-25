@@ -42,8 +42,6 @@ library(tidyverse)
 
 ``` r
 library(stringr)
-#install.packages("devtools") # Do not run this if you already have this package installed! 
-#devtools::install_github("JoeyBernhardt/singer")
 library(gapminder)
 ```
 
@@ -76,18 +74,18 @@ dim(movieLens)
     ## [1] 100004      7
 
 ``` r
-head(movieLens) ## add head to show some rows of dataset
+glimpse(movieLens) ## add to show some rows of dataset
 ```
 
-    ## # A tibble: 6 × 7
-    ##   movieId title                              year genres userId rating timestamp
-    ##     <int> <chr>                             <int> <fct>   <int>  <dbl>     <int>
-    ## 1      31 Dangerous Minds                    1995 Drama       1    2.5    1.26e9
-    ## 2    1029 Dumbo                              1941 Anima…      1    3      1.26e9
-    ## 3    1061 Sleepers                           1996 Thril…      1    3      1.26e9
-    ## 4    1129 Escape from New York               1981 Actio…      1    2      1.26e9
-    ## 5    1172 Cinema Paradiso (Nuovo cinema Pa…  1989 Drama       1    4      1.26e9
-    ## 6    1263 Deer Hunter, The                   1978 Drama…      1    2      1.26e9
+    ## Rows: 100,004
+    ## Columns: 7
+    ## $ movieId   <int> 31, 1029, 1061, 1129, 1172, 1263, 1287, 1293, 1339, 1343, 13…
+    ## $ title     <chr> "Dangerous Minds", "Dumbo", "Sleepers", "Escape from New Yor…
+    ## $ year      <int> 1995, 1941, 1996, 1981, 1989, 1978, 1959, 1982, 1992, 1991, …
+    ## $ genres    <fct> Drama, Animation|Children|Drama|Musical, Thriller, Action|Ad…
+    ## $ userId    <int> 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, …
+    ## $ rating    <dbl> 2.5, 3.0, 3.0, 2.0, 4.0, 2.0, 2.0, 2.0, 3.5, 2.0, 2.5, 1.0, …
+    ## $ timestamp <int> 1260759144, 1260759179, 1260759182, 1260759185, 1260759205, …
 
 Now that we’ve had a quick look at the dataset, it would be interesting
 to explore the rows (observations) in some more detail. I’d like to
@@ -237,7 +235,18 @@ use *snake_case* instead, and assign our post-rename object back to
 movieLens <- movieLens %>%
   rename(user_id = userId,
          movie_id = movieId) ## == to = for syntax error
+head(movieLens)
 ```
+
+    ## # A tibble: 6 × 7
+    ##   movie_id title                            year genres user_id rating timestamp
+    ##      <int> <chr>                           <int> <fct>    <int>  <dbl>     <int>
+    ## 1       31 Dangerous Minds                  1995 Drama        1    2.5    1.26e9
+    ## 2     1029 Dumbo                            1941 Anima…       1    3      1.26e9
+    ## 3     1061 Sleepers                         1996 Thril…       1    3      1.26e9
+    ## 4     1129 Escape from New York             1981 Actio…       1    2      1.26e9
+    ## 5     1172 Cinema Paradiso (Nuovo cinema …  1989 Drama        1    4      1.26e9
+    ## 6     1263 Deer Hunter, The                 1978 Drama…       1    2      1.26e9
 
 As you already know, `mutate()` defines and inserts new variables into a
 tibble. There is *another mystery function similar to `mutate()`* that
