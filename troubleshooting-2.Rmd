@@ -20,6 +20,8 @@ Note that errors are not all syntactic (i.e., broken code)! Some are logical err
 library(dslabs) ##change to library function for syntax error
 library(tidyverse)
 library(stringr)
+library(devtools)
+library(singer)
 library(gapminder)
 ```
 
