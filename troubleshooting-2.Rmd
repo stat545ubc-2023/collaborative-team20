@@ -52,7 +52,7 @@ Now that we've had a quick look at the dataset, it would be interesting to explo
 ### ERROR HERE ###
 filter(movieLens, genres == "Drama")
 filter(movieLens, !genres == "Drama")
-filter(movieLens, year > 2000) ## change to > 2000 as we need "after" year 2000
+filter(movieLens, year > 2001) ## change to > 2001 as we need "after" year 2000
 filter(movieLens, year == 1999 | year == 2000) ## change to year == 2000
 filter(movieLens, rating > 4.5, year < 1995)
 ```
