@@ -37,7 +37,7 @@ class(dslabs::movielens)
 movieLens <- as_tibble(dslabs::movielens)
 dim(movieLens)
 glimpse(movieLens) ## add to show some rows of dataset
-tibble(movieLens) #Added to satisfy requirement 'Have a quick look at the tibble, using a dplyr function
+
 ```
 
 Now that we've had a quick look at the dataset, it would be interesting to explore the rows (observations) in some more detail. I'd like to consider the movie entries that...
@@ -52,7 +52,7 @@ Now that we've had a quick look at the dataset, it would be interesting to explo
 ### ERROR HERE ###
 filter(movieLens, genres == "Drama")
 filter(movieLens, !genres == "Drama")
-filter(movieLens, year > 2001) ## change to > 2001 as we need "after" year 2000
+filter(movieLens, year > 2000) ## change to > 2000 as we need "after" year 2000
 filter(movieLens, year == 1999 | year == 2000) ## change to year == 2000
 filter(movieLens, rating > 4.5, year < 1995)
 ```
