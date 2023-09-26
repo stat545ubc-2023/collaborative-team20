@@ -8,16 +8,16 @@
  ## Division of Work
  _Be sure to include what work will be done individually, so that the work in each teammate’s pull request has been identified._
  
-**Exercise 0: Merge one Pull Request per teammate**  @andrasszeitz @April-UBC @BearAlenko @whh1123
+**Exercise 0: Merge one Pull Request per teammate**  ✅ @andrasszeitz @April-UBC @BearAlenko @whh1123
 
 In the exercise, each team member has
 
-   - [ ] creation of a complete set of pull requests (i.e., one pull request per teammate) @andrasszeitz @BearAlenko, @April-UBC
-   - [ ] reviewed a pull request made by others and merged it @April-UBC @BearAlenko
-   - [ ] comment(s) kicking off the pull request @BearAlenko
-   - [ ] follow-up comment(s) from a reviewer @April-UBC
-   - [ ] each teammate gets the chance to act as a reviewer/merger of someone else’s pull request
-   - [ ] ensured that pull requests previously graded are marked "(GRADED)" in the file name
+   - [x] creation of a complete set of pull requests (i.e., one pull request per teammate) @andrasszeitz @BearAlenko, @April-UBC @whh1123
+   - [x] reviewed a pull request made by others and merged it @April-UBC @BearAlenko @andrasszeitz @whh1123
+   - [x] comment(s) kicking off the pull request @April-UBC @BearAlenko @andrasszeitz @whh1123
+   - [x] follow-up comment(s) from a reviewer @April-UBC @BearAlenko @andrasszeitz @whh1123
+   - [x] each teammate gets the chance to act as a reviewer/merger of someone else’s pull request
+   - [x] ensured that pull requests previously graded are marked "(GRADED)" in the file name
 
 **Exercise 1: Troubleshooting document**  ✅ @BearAlenko
 
@@ -32,9 +32,9 @@ The Repository
    - [x] README.md reflects all changes made to the repository
    - [x] Repository is clean and organized; no old files kept, with all output files being up to date.
 
-**Exercise 3: Submitting this Milestone** 
+**Exercise 3: Submitting this Milestone** ✅ @whh1123
 
-   - [ ] Collaborative Project: Milestone 2 was tagged a release to Canvas
+   - [x] Collaborative Project: Milestone 2 was tagged a release to Canvas
 
 **Additional: TEAMWORK file and updating** ✅ @April-UBC
 
@@ -48,6 +48,14 @@ _When you will submit your pull requests, keep in mind that another teammate wil
   * September 23: Exercise 1 and 2 completed.
   * September 27: Exercise 0-3 completed, tentatively
   * September 28-29: Last-minute unexpected errors, problems fixed, Exercise 3 completed.
+#### Detailed Planning for Exercises
+| **Date**  |               **Exercises Planning**            |
+|:--------- |:--------------------                            |
+| Sept 20   |  Exercises 1 completed                          |
+| Sept 23   |  Exercises 2 completed                          |
+| Sept 27   |  Exercises 0-3 completed, tentatively           |
+| Sept 28   |  Last-minute unexpected errors, problems fixed  |
+| Sept 29   |  Exercise 3 completed                           |
     
 ## Communication
 
