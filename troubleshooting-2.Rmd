@@ -20,8 +20,6 @@ Note that errors are not all syntactic (i.e., broken code)! Some are logical err
 library(dslabs) ##change to library function for syntax error
 library(tidyverse)
 library(stringr)
-library(devtools)
-library(singer)
 library(gapminder)
 ```
 
@@ -37,7 +35,6 @@ class(dslabs::movielens)
 movieLens <- as_tibble(dslabs::movielens)
 dim(movieLens)
 glimpse(movieLens) ## add to show some rows of dataset
-
 ```
 
 Now that we've had a quick look at the dataset, it would be interesting to explore the rows (observations) in some more detail. I'd like to consider the movie entries that...
